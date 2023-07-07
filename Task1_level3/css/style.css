@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Merienda', cursive;
+    background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.container {
+    border: 1px solid gainsboro;
+    margin: 30px;
+    height: 40vh;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(-225deg, #D7FFFE 0%, #FFFEFF 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input,
+button,
+select {
+    margin: 5px 20px;
+    display: inline-block;
+}
+
+input {
+    padding: 0 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 18px;
+}
+
+select,
+button {
+    padding: 5px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
